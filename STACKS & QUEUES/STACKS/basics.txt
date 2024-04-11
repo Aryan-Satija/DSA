@@ -1,0 +1,19 @@
+please complete the following:
+
+Infix to Postfix
+Q: a+b*(c^d-e)^(f+g*h)-i
+A: abcd^e-fgh*+^*+i-
+
+Q: (p+q)*(m-n)
+A: pq+mn-*
+
+
+Infix to Prefix
+Q: x+y*z/w+u
+A: ++x/*yzwu
+
+Q: a+b
+A: +ab
+
+if possible,
+Prefix to Infix Conversion, Prefix to Postfix Conversion, Postfix to Prefix Conversion, Postfix to Infix

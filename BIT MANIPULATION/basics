@@ -1,0 +1,28 @@
+&             bitwise and
+|             bitwise or
+^             bitwise xor
+~             bitwise not
+<<            leftshift operator
+>>            rightshift operator
+------------------EVEN---------------------
+LSB = 0
+N & 1 = 0
+------------------ODD---------------------
+LSB = 1
+N & 1 = 0
+
+
+
+------------------MULTIPLY BY 2---------------------
+LEFT SHIFT OPERATOR : << 
+------------------DIVIDE BY 2---------------------
+RIGHT SHIFT OPERATOR : >>
+
+
+
+------------------OP POINTS---------------------
+a^a^b^c^c^b^x = 0^x = x
+------------------TO SET RIGHTMOST UNSET BIT---------------------
+N | (N + 1)
+------------------TO UNSET RIGHTMOST SET BIT(brian kernighan)---------------------
+N & (N - 1)                                     
